@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>农村文化传承</title>
+	<style>
+		* {
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+			}
+        .footer {
+               background-color: #d092ad; 
+			   font-size: 15px;
+			   padding: 15px;
+			   text-align: center;
+            }
+			.nav {
+				background-color: #d092ad;
+				padding: 3px;
+				color: #000000;
+				font-size: 50px;
+				margin: 0.5px;
+				font-family: "华文隶书";
+				text-align: center;
+			}
+
+			.nav ul {
+				display: flex;
+				justify-content: space-around;
+			}
+
+			.nav ul li {
+				isplay: flex;
+				justify-content: space-around;
+				font-size: 20px;
+				height: 60px;
+				width: 100%;
+				line-height: 60px;
+				color: #8b4513;
+			}
+			
+
+			.attraction-container {
+				color: #333；
+			}
+
+			.attraction-intro {
+				height: 300px;
+				background-image: ur1 (' ../images/jban.png');
+				background-size: cover;
+				background-position: center;
+			}
+
+			.attraction-intro h1 {
+				font-size: 48px;
+				margin-bottom: 20px;
+			}
+
+			.attraction-intro p {
+				font-size: 24px;
+				max-width: 800px;
+				margin: 0 auto;
+				line-height: 1.6;
+			}
+
+			.container {
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 60px 20px;
+			}
+
+			.attraction-list {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-gap: 60px;
+			}
+
+			.attraction-item {
+				display: grid;
+				grid-template-columns: repeat (2, 1fr);
+				grid-gap: 30px;
+				align-items: center;
+			}
+
+			.attraction-img img {
+				width: 100%;
+				height: 420px;
+				border-radius: 10px;
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			}
+
+			.attraction-info {
+				padding: 30px;
+				background-color: #FFF;
+				border-radius: 10px;
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+			}
+
+			.attraction-info h2 {
+				font-size: 36px;
+				margin-bottom: 20px;
+				color: #8b4513;
+			}
+
+			#banner{
+				margin: 0 auto;
+				position: relative;
+				width: 1270px;
+				height: 550px;
+				overflow: hidden;
+			}
+			#list{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 300%;
+				height: 500px;
+			}
+			#list li{
+				float: left;
+			}
+			#list li img{
+				width: 1270px;
+				height: 550px;
+			}
+			.front{
+				width: 100%;
+				height: 250px;
+			}
+			.front .left{
+				width: 350px;
+				height: 250;
+				float: left;
+				margin-right: 20px;
+			}
+			.column{
+				width: 100%;
+				height: 250px;
+				margin-top: 50px;
+			}
+			.column .one{
+				width: 350px;
+				height: 250;
+				float: left;
+				margin-right: 20px;
+			}
+			
+			.attraction-img img:hover {
+			    border-radius: 50%;
+			}
+			.left img {
+			    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+			}
+			
+			.left img:hover {
+			    transform: rotate(-10deg); /* 悬停时逆时针旋转10度 */
+			}
+			.one img {
+			    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+			}
+			
+			.one img:hover {
+			    transform: rotate(-10deg); /* 悬停时逆时针旋转10度 */
+			}
+			.navbar {
+			    display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			}
+			.search-box {
+			    display: flex;
+			}
+			
+			.search-box input {
+			    padding: 5px;
+			    margin-right: 5px;
+			}
+			
+			.search-box button {
+			    padding: 5px 10px;
+			    background-color: #333;
+			    color: white;
+			    border: none;
+			}
+			.container {
+			  display: flex;
+			  align-items: center;
+			  justify-content: space-between;
+			}
+			
+			.image {
+			  flex: 1;
+			}
+			
+			.text {
+			  flex: 1;
+			  text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="top">
+				<img src="img/logo.png" alt="" width="200px" height="50px" style="float:left;">
+				<nav class="nav">
+					<ul>
+						<li><a href="#">首页</a></i>
+						<li><a href="./t2.html">民间工艺</a></i>
+						<li><a href="./t3.html">节庆文化</a></li>
+						<li><a href="./t4.html">苗族文化</a></li>
+						<li><a href="./t5.html">登录/注册</a></li>
+					</ul>
+					<div class="navbar" style="float: right;">
+					    <div class="search-box">
+					        <input type="text" placeholder="输入内容">
+					        <button type="submit">搜素</button>
+					    </div>
+				</nav>
+			</div>
+			<div id="banner">
+				<ul id="list">
+					<li><img id="bannerImg" src="img/贵州7.webp" alt="轮播图1" ></li>
+					<li><img id="bannerImg2" src="img/贵州1.webp" alt="轮播图2"></li>
+					<li><img id="bannerImg3" src="img/贵州6.webp" alt="轮播图3"></li>
+				</ul>
+			</div>
+					
+				
+				<script>
+					setInterval("changeColor()",200);//设置周期定时器
+					
+					var list=document.querySelector('#banner #list');
+					var img=document.querySelector("#banner #list li img");
+					var uli=list.children;
+					var index=0;
+					setInterval(move,2000);
+					function move(){
+						if(index<uli.length-1){
+							index++;
+							list.style.left=-index*img.offsetWidth+"px";
+							list.style.transition='left 1s';
+						}else{
+							index=0;
+							list.style.left=-index*img.offsetWidth+"px";
+							list.style.transition='left 0s';
+						}
+					};
+				</script>
+			</div>
+			<main>
+				<div class="container">
+					<div class="column">
+						<div class="front">
+						
+							<div class="left">
+							<img src="img/贵州3.jpg" / width="350px" height="250px">
+							</div>
+							<div class="right">布依织锦是布依族的传统工艺品之一，是布依族妇女衣裙不可缺少的装饰品，与蜡染一样历史悠久。明清史志凡写仲家的都要说“女务纺缉”或“善纺织”，这“善织”即包括织锦在内。田雯《炎徽纪闻》说的仲家妇人“拖腰以彩布一方若绶”。这“彩布一方”即用织锦镶边的围腰。布依织锦前身叫作“斑布”，曾作贡品，称“贡斑布”。清乾隆《贵州通志》称为“铁笛布”。民国《贵州通志·土民志》记：“仲家妇女好妆饰，以峒锦为裳而短”。这里所说的“峒锦”，就是布依织锦。镇宁自治县工艺美术厂生产的布依织锦产品，1984年被评为省优秀旅游产品。1985年，在第五届中国工艺美术“百花奖”评比中，被评为优秀创作设计一等奖，获“希望杯”，同年9月，被省选定为部优工艺美术品参加第四届亚太地区博览会。1986年，在省组织的旅游品、工艺美术品、民族用品展销评比会上，被评为优秀民族用品，获“兴黔杯”奖。
+
+
+
+
+							</p>
+							</div>
+						</div>
+						<div class="column">
+							<div class="one">
+								<img id="enlargeImage" src="img/贵州4.jpg" width="350px" height="250px">
+								</div>
+								<div class="two">
+								<p>贵州是苗族聚居地，苗族是贵州省的主要少数民族之一。苗族人民有着丰富的传统文化，包括独特的服饰、建筑、音乐、舞蹈等。苗族的传统节日、婚俗等民俗活动也体现了苗族独特的文化传统。贵州蜡染：亦被称作“贵州蜡花”。它以素雅的色调、优美的纹样、丰富的文化内涵，在贵州民间艺术中独树一帜。蜡染工艺品的魅力除了图案精美外，还在于蜡冷却后在织物上产生龟裂，色料渗入裂缝，得到变化多样的色纹，俗称“冰纹”。同一图案设计，做成蜡染后可得到不同的“冰纹”。
+蜡染，是我国民间传统纺织印染手工艺，古称蜡。蜡染是用蜡刀蘸熔蜡绘花于布后以蓝靛浸染，既染去蜡，布面就呈现出蓝底白花或白底蓝花的多种图案，同时，在浸染中，作为防染剂的蜡自然龟裂，使布面呈现特殊的“冰纹”，尤具魅力。由于蜡染图案丰富，色调素雅，风格独特，用于制作服装服饰和各种生活实用品，显得朴实大方、清新悦目。
+作为一种生活方式的“艺术”，贵州民间蜡染是贵州民俗文化活动中不可缺少的重要内容，不管是岁时节日住房的装饰还是婚丧嫁娶人生仪礼，也不管是民间宗教信仰祭祖敬神还是服饰佩带织绣花样，各式各样的蜡染工艺织染活动，都与贵州特定的文化背景与生活环境密切相关。
+								</p>
+								</div>
+							
+						</div>
+					</div>
+				</div>
+			</main>
+		</header>
+		<div class="attraction-container">
+			<div class="attraction-intro">
+				<div class="container">
+				</div>
+			</div>
+			<div class="container">
+				<section class="attraction-list">
+					<div class="attraction-item">
+						<div class="attraction-img">
+							<img src="img/古建筑1.jpeg" alt="">
+						</div>
+						<div class="attraction-info">
+							<h2>农村文化传承简介</h2>
+							<p>农村文化传承是指将农村地区丰富的历史、传统文化和民俗风情进行保护、传承和弘扬的过程。在当今社会，随着城市化的加速进程，农村文化传承显得尤为重要。农村文化传承不仅有助于保护和传承人们的传统文化，也能促进乡村振兴、增强农民的文化自信心，以及吸引游客从而促进当地经济发展。
+							</p>
+							<p>农村文化传承涵盖了诸多方面，包括但不限于历史文化遗产的保护、传统的节庆活动、民俗风情的传承、特色美食的传播、标志性景点的维护等。通过这些传承活动，人们能够了解到乡村的历史渊源、民俗习俗、地方特色美食、自然景观等，感受到乡村的独特魅力和文化底蕴。
+							</p>
+						</div>
+					</div>
+					<div class="attraction-item">
+						<div class="attraction-info">
+							<h2>坚持传承创新 促进乡村文化振兴</h2>
+							<p>坚持传承创新，着力庚续中华文脉。乡土文化是中华文化的本质，也是民族根脉之缘起。坚持对乡村地区优秀传统文化进行传承与创新，既是乡村文化振兴的必然要求，也是着力赓续中华文脉，推动中华优秀传统文化创造性转化和创新性发展的必然选择。
+坚守古城文化底色，在全面保护好历史文化遗产的同时，对乡村优秀传统文化进行创造性转化、创新性发展，抓住乡村文化振兴的根本。一方面，加大对物质文化遗产加大发掘和保护力度，另一方面，加大力量对一些非物质文化遗产进行保护与传承，加强非遗文化的价值研究和传播力度。此外，整合区域资源，充分发挥县域内红色遗址的宣传教育功能，实现红色文化的有效传播。</p>
+						</div>
+						<div class="attraction-img">
+							<img src="img/4.jpg" alt="传统节日">
+						</div>
+						<footer class="footer">
+							&copy 唐佳琦20220000586
+							</footer>
+	</body>
+</html>

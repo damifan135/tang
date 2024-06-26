@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>民间工艺</title>
+	</head>
+</html>
+  <style>
+	h1 {
+		width: 80%;
+		margin: 0 auto;
+	  	text-align: center;
+	  	font-size: 30px;
+	  	background-color: #d092ad;
+		padding-bottom: 10px;
+		padding: 20px;
+		font-family: "华文行楷";
+	  }
+  .rural-content {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fbeaff;
+    }
+ .rural-header {
+      animation: wave 2s infinite;
+    }
+
+    @keyframes wave {
+      0%,
+      100% {
+        transform: translate(0, 0);
+      }
+
+      25% {
+        transform: translate(5px, 0);
+      }
+
+      50% {
+        transform: translate(0, 5px);
+      }
+
+      75% {
+        transform: translate(-5px, 0);
+      }
+    }
+  .rural-header {
+      font-size: 30px;
+      padding-bottom: 10px;
+	  font-family: "华文隶书";
+    }
+
+  .rural-content {
+  	display: grid;
+  	grid-template-columns: repeat (2, 1fr);
+  	grid-gap: 30px;
+  	align-items: center;
+  }
+  
+   .rural-content img {
+        width: 70%;
+        height: 350px;
+        margin: 0 auto;
+		
+        border: 5px solid #b8c3ff;
+        transition: transform 0.3s ease,
+          border-radius 1s linear 0.5s,
+          border-color 1s ease-in;
+      }
+  
+    .rural-content img:hover {
+        transform: scale(1.2);
+        border: 6px solid #ffd3fb;
+        border-radius: 50%;
+      }
+  .rural-text {
+      
+	  padding-left: 20px;
+    }
+	.footer {
+	       width: 80%;
+	       margin: 0 auto;
+	       text-align: center;
+	       font-size: 20px;
+	       background-color: #d092ad;
+	       padding-bottom: 10px;
+	       padding: 20px;
+	       font-family: "华文隶书";
+	    }
+  </style>
+</head>
+
+<body>
+	<div>
+		<h1><strong>贵州非遗探索之旅</strong></h1>
+	</div>
+  <div class="rural-content">
+    <div class="rural-header">苗绣</div>
+    <img class="rural-image" src="img/苗绣.jpg" alt="农村传统技艺图片">
+    <div class="rural-text"><p>苗绣(花溪苗绣)即苗族挑花，是首批入选国家级非遗项目名录的项目，是贵州民族民间艺术的重要种类之一。苗绣是用彩色丝线在麻质底布上挑绣出规整图案，主要用于服装装饰。花溪苗族挑花技艺具有追念先祖、记录历史、表达爱情和美化自身等功用，同时又有很强的装饰性。用十字绣为基本针法，数纱而绣，不用底稿，反面挑正面看的特殊技法，使整件挑花作品显得更加美观精巧。</p></div>
+  </div>
+  <div class="rural-content">
+    <div class="rural-header ">雷家豆腐圆子</div>
+    <img class="rural-image" src="img/圆子.jpg" alt="农村民俗风情图片">
+    <div class="rural-text"><p>从1864年第一代创始人开始，雷家豆腐圆子一直传承至今。“雷家豆腐圆子”延续着百年传承下来的品质要求，从豆腐的制作、加工、手握、油炸等一系列工艺都不敢有一丝怠慢，只为带给食客最地道、最极致的美味。现代医学证实，豆腐除有增加营养、帮助消化、增进食欲的功能外，对齿、骨骼的生长发育也颇为有益，在造血功能中可增加血液中铁的含量；豆腐不含胆固醇，为高血压、高血脂、高胆固醇症及动脉硬化、冠心病患者的药膳佳肴。也是儿童、病弱者及老年人补充营养的食疗佳品。</p></div>
+  </div>
+  <footer class="footer">
+  	&copy 唐佳琦20220000586
+  	</footer>
+</body>
+
+</html>
